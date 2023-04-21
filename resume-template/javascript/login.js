@@ -1,11 +1,11 @@
 let username;
 let password;
 
-let error = document.getElementById("error");
+// let error = document.getElementById("error");
 
 function loginDetails() {
 
-    /* storing username and passwords into local storage */
+    // storing username and passwords into local storage 
     localStorage.setItem("test", "test");
 
     username = document.getElementById("username").value;
