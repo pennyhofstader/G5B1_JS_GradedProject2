@@ -5,14 +5,13 @@ let password;
 
 function loginDetails() {
 
-    // storing username and passwords into local storage 
-    localStorage.setItem("test", "test");
-
+   
     username = document.getElementById("username").value;
     password = document.getElementById("password").value;
 
     // checking for credentials
     if (username === "test" && password === "test") {
+ // storing username and passwords into local storage 
 
         localStorage.setItem("username", username);
         localStorage.setItem("password", password);
