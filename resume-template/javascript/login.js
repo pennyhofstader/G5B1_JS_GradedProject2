@@ -5,19 +5,19 @@ let password;
 
 function loginDetails() {
 
-   
+
     username = document.getElementById("username").value;
     password = document.getElementById("password").value;
 
     // checking for credentials
     if (username === "test" && password === "test") {
- // storing username and passwords into local storage 
 
+        // storing username and passwords into local storage 
         localStorage.setItem("username", username);
         localStorage.setItem("password", password);
 
         window.open("resume.html", "_self")
-    } 
+    }
     else {
 
         error.textContent = "Invalid Credentials";
